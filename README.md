@@ -1,5 +1,4 @@
 ## Step to run the project
-1. Clone the project from the above
-2. Run npm install
-3. Run npm start
-4. View the application in browser: http//:localhost:3000 
+1. Run- npm install
+2. Run- npm start
+3. View the application in browser: https://localhost:3003 or https://127.0.0.1:3003/
