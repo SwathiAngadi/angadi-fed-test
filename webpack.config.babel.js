@@ -172,11 +172,11 @@ const devConfig = {
 	devServer: {
 		contentBase: path.join(__dirname, 'public'),
 		compress: true,
-		port: 3000,
-		https: false,
+		port: 3003,
+		https: true,
 		historyApiFallback: true,
 		publicPath: '/',
-		host: '192.168.1.7'
+		host: '127.0.0.1'
 	}
 };
 const prdConfig = {

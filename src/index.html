@@ -3,14 +3,15 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<title>Your Title Here</title>
+		<title>User</title>
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<style>
-		body {
+<style>
+	/*** Added style here as there was some issue with loading external css style ***/
+body {
   font-family: "Lato", sans-serif;
 }
-		.cards {
+.cards {
     margin: 0 auto;
     width: 80%;
 	background: #fff;
@@ -44,8 +45,12 @@
 .profileImage img{
 	object-fit: contain;
 }
-div.info:nth-child(even) {background: #5f9ea094;}
-div.info:nth-child(odd) { background: #f0f8ff;}
+div.info:nth-child(even) {
+	background: #5f9ea094;
+}
+div.info:nth-child(odd) { 
+	background: #f0f8ff;
+}
 .react-root{
 	background: #f0f8ff;
 }
@@ -74,7 +79,7 @@ div.info:last-child{
     margin: 0 auto;
     padding: 0.5em;
 }
-		</style>
+</style>
 	</head>
 	<body>
 		<div id="root" class="react-root"></div>
