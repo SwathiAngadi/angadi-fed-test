@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/home';
 import InfoCards from './components/InfoCards';
 
 import {Provider} from "react-redux";
